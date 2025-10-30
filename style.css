@@ -781,5 +781,15 @@ footer {
     display: inline-block;
   }
 }
+/* --- Fix right side gap issue --- */
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
