@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prakash — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Portfolio — Projects, Skills, Qualifications, Contact" />
+
+</head>
+<body class="light"> <canvas id="bg3d"></canvas>
+  <main>
+    <section style="display:block; opacity:1;">
+  <!-- Your content -->
+</section>
+
+  <!-- Custom cursor -->
+  <div id="cursor"></div>
+
+  <!-- Top nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <span class="logo-dot">S</span>
+        <span class="brand-text">SURYAPRAKASH</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Specializations</a>
+        <a href="#qualifications">Qualifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" title="Toggle dark mode">🌓</button>
+        <a class="resume-btn" href="SURYAPRAKASH K -Resume.pdf" download>View My Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1 class="hero-title"><strong>Hi, I'm SURYA PRAKASH  K</strong></h1>
+        <p class="hero-sub">A <span id="rotatingProf" class="rotating-profession">Full-Stack Developer</span> crafting clean web experiences.</p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+
+      <div class="social-placeholder"></div>
+      </div>
+
+      <div class="hero-right framed-photo">
+        <img src="SURYAPRAKASH -photo.jpg" alt="Profile photo">
+        <div class="photo-accent accent-1"></div>
+        <div class="photo-accent accent-2"></div>
+      </div>
+    </div>
+
+    <!-- subtle background shapes -->
+    <svg class="bg-blob" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet">
+      <g transform="translate(300,300)">
+        <path d="M120,-160C156,-131,183,-96,199,-55C215,-14,220,34,197,73C174,112,123,141,74,164C25,187,-23,204,-68,190C-113,175,-155,129,-174,80C-193,31,-189,-22,-170,-69C-151,-116,-118,-159,-72,-183C-25,-207,30,-212,77,-197C125,-182,85,-190,120,-160Z" />
+      </g>
+    </svg>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="about-photo framed-photo-lg">
+       <img src="IMG_3033.JPG" alt="Profile">
+      </div>
+
+      <div class="about-content">
+        <h2 class="section-title"><strong>About Me</strong></h2>
+        <p class="lead">I’m an aspiring <strong>Web Developer</strong> with strong skills in building modern, accessible, and user-focused web applications. My work blends performance, clean UI design, and responsive layouts to deliver smooth digital experiences. I’m passionate about solving real-world problems with technology — from IoT-based automation to scalable web solutions.</p>
+
+        <ul class="about-highlights">
+          <li><strong>Experience:</strong> <strong>Fresher </strong>and Hands-on development of multiple projects, including <strong>IoT warehouse automation and smart traffic management.</strong></li>
+          <li><strong>Focus:</strong> Full-stack web development, backend APIs, IoT integrations.</li>
+          <li><strong>Style:</strong> Professional, responsive designs with optimized performance and clean code architecture.</li>
+        </ul>
+
+        <div class="skills-pill-row">
+          <span class="pill">JavaScript</span>
+          <span class="pill">React</span>
+          <span class="pill">Node.js</span>
+          <span class="pill">SQL</span>
+        </div>
+      </div>
+    </div>
+  <!-- PROJECTS -->
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-body">
+                    <h3 class="proj-title">Smart Warehouse System</h3>
+                    <p class="proj-desc">
+                        IoT-based warehouse automation project to manage inventory and automated order tracking and order fulfillment.
+                    </p>
+                    <ul class="proj-features">
+                        <li>Real-time Tracking</li>
+                        <li>Automated Alerts</li>
+                        <li>Cloud Integration</li>
+                        <li> Access Control & Security</li>
+                        <li>Cloud Integration</li>
+                    </ul>
+                </div>
+                <div class="project-media multi-img">
+                    <img src="images1.jpeg" alt="Smart Warehouse System View 1">
+                    <img src="Project Image Hardware.jpg" alt="Smart Warehouse System View 2">
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-body">
+                    <h3 class="proj-title">Smart Road Traffic Control System</h3>
+                    <p class="proj-desc">
+                        Designed an IoT-based traffic management system that prioritizes emergency vehicles using real-time sensors and automated signal control.
+                    </p>
+                    <ul class="proj-features">
+                        <li>Automated Signal Control</li>
+                        <li>IoT Sensor Integration</li>
+                        <li> Emergency Vehicle Priority</li>
+                    </ul>
+                </div>
+                <div class="project-media multi-img">
+                    <img src="project2.1.jpg" alt="Portfolio Website View 1">
+                    <img src="project2.2.jpg" alt="Portfolio Website View 2">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <!-- SPECIALIZATIONS / SKILLS -->
+ <section id="skills" class="skills section">
+  <div class="container">
+    <h2 class="section-title"><strong>Specializations</strong></h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h4><strong>Frontend</strong></h4>
+        <p>Responsive UI, accessible components, React ecosystems.</p>
+        <img src="front.jpg" alt="Frontend" style="width:100px; margin-top:10px;">
+      </div>
+      <div class="skill">
+        <h4><strong>Backend</strong></h4>
+        <p>RESTful APIs, databases, authentication and performance.</p>
+        <img src="back.avif" alt="Backend" style="width:100px; margin-top:10px;">
+      </div>
+      <div class="skill">
+        <h4><strong>IoT & Automation</strong></h4>
+        <p>Sensor data, MQTT, remote device control & dashboards.</p>
+        <img src="iot.jpg" alt="IoT & Automation" style="width:100px; margin-top:10px;">
+      </div>
+      <div class="skill">
+        <h4><strong>Testing & QA</strong></h4>
+        <p>Unit/integration tests, CI pipelines and best practices.</p>
+        <img src="test.jpg" alt="Testing & QA" style="width:100px; margin-top:10px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- QUALIFICATIONS -->
+ <section id="qualifications" class="qualifications-section">
+    <div class="container">
+        <h2 class="section-title">My Qualifications</h2>
+        <div class="qual-grid">
+            
+            <div class="qual-card">
+                <h3 class="qual-title">Bachelor's of Technology</h3>
+                <p class="qual-desc">Currently pursuing my Final Year in the domain of Information Technology with multiple technical tools and integrated projects</p>
+                <img src="hitech.png" alt="Bachelor Degree" class="qual-image">
+            </div>
+
+            <div class="qual-card">
+                <h3 class="qual-title">Web Development Certification in <strong>Marcello Tech</strong></h3>
+                <p class="qual-desc">Gained hands-on experience building modern, responsive websites and web apps.</p>
+                <img src="marcello_tech.png.png" alt="Web Development" class="qual-image">
+            </div>
+
+            <div class="qual-card">
+                <h3 class="qual-title">Basics of IoT Implementation & Programming in VEI Technologies</h3>
+                <p class="qual-desc">Gained hands-on experience building modern IoT projects and programming for that using tools.</p>
+                <img src="vei1.jpg.avif" alt="Python Certification" class="qual-image">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title"><strong>Contact</strong></h2>
+        <p class="lead">Let's collaborate — I'm open to freelance or full-time opportunities.</p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <h4><strong>Email</strong></h4>
+            <p>prakashkt2004@gmail.com</p>
+          </div>
+          <div class="contact-card">
+            <h4><strong>Phone</strong></h4>
+            <p>+91 6374429639</p>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="msg" rows="4" placeholder="Message" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-map framed-thumb">
+        <!-- decorative gradient / background for contact -->
+        <div class="map-placeholder">
+          <p><strong>Let's connect!</strong></p>
+          <p>Drop your message and I'll reach out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="background-color:black;color:white;padding:15px 20px;">
+  <div class="footer-container" style="
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align:center;
+  ">
+
+    <!-- Left side -->
+    <div class="footer-left" style="text-align:left;">
+      📧 <a href="mailto:prakashkt2004@gmail.com" style="color:#00bfff;text-decoration:none;">prakashkt2004@gmail.com</a><br>
+      📞 <a href="tel:+916374429639" style="color:#00bfff;text-decoration:none;">+91 6374429639</a>
+    </div>
+
+    <!-- Center -->
+    <div class="footer-center" style="text-align:center;margin-top:10px;">
+      <p>© 2025 <strong>Suryaprakash</strong> | All Rights Reserved.</p>
+    </div>
+
+    <!-- Right side -->
+    <div class="footer-right" style="text-align:right;margin-top:10px;">
+      <a href="https://github.com/Suryaprakash4106" target="_blank" style="color:#00bfff;margin:0 10px;font-size:26px;"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/suryaprakash-k-332524287/" target="_blank" style="color:#00bfff;margin:0 10px;font-size:26px;"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/PrakashK83143" target="_blank" style="color:#00bfff;margin:0 10px;font-size:26px;"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/thisisdjblack/" target="_blank" style="color:#00bfff;margin:0 10px;font-size:26px;"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Responsive CSS -->
+  <style>
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .footer-left, .footer-center, .footer-right {
+        text-align: center !important;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
