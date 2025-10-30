@@ -749,5 +749,37 @@ footer {
   bottom: 0;
   left: 0;
 }
+/* ===== Responsive Fix for Mobile ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px; /* Add space on both sides */
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  .navbar, header, footer {
+    padding: 10px 15px;
+  }
+
+  .project-card {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  button, a {
+    display: inline-block;
+  }
+}
 
 
