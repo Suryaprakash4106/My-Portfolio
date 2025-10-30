@@ -874,5 +874,22 @@ html, body {
     padding: 0 10px;
   }
 }
+@media (max-width: 768px) {
+  .about-photo img {
+    width: 180px;
+    height: auto;
+  }
+
+  .about-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about {
+    padding: 20px;
+    text-align: justify; /* text neatly aligned both sides */
+  }
+}
 
 
